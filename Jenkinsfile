@@ -27,6 +27,12 @@ done'''
           }
         }
 
+        stage('') {
+          steps {
+            sh 'date'
+          }
+        }
+
       }
     }
 
